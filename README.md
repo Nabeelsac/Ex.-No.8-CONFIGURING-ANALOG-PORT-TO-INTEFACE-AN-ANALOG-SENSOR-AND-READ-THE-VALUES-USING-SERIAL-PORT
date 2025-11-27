@@ -1,7 +1,12 @@
+**** 
 
-### Ex. No:8 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
+
+### Ex. No. :8 CONFIGURING ANALOG PORT TO INTEFACE AN ANALOG SENSOR AND READ THE VALUES USING SERIAL PORT
+## Date: 21-11-2025
+###  
 ## Name: Nather Nabeel S.A.C
 ## Reg no:212224100040
+
 ## Aim: 
 To configure ADC channel for interfacing an analog sensor and read the values on the com port 
 ## Components required:
@@ -147,7 +152,8 @@ This module also includes a potentiometer that will fix the threshold value, & t
 
 
 ##  Program 
-~~~
+
+```
 #include "main.h"
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -227,23 +233,15 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
 }
 #endif
-~~~
+ ```
 
+ 
+## Output  :
 
- ## Output screen shots of proteus :
- ![image](https://github.com/user-attachments/assets/0810350b-ba18-4a13-8334-a78883963770)
- ![image](https://github.com/user-attachments/assets/51fffb3a-81f6-416a-a688-1cb545f9526f)
+![WhatsApp Image 2025-11-21 at 08 33 16_1f6c12a3](https://github.com/user-attachments/assets/aa072cb8-c121-43a8-9e80-6442bcc63565)
 
-## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE):
-![image](https://github.com/user-attachments/assets/6b01c785-824c-4861-bc9d-f165b98fb362)
-
-
-
-
-
-
-
-
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/c8c959fa-e453-48dc-a82f-483ff5c4f304" />
 
 ## Result :
 Interfacing a push button and interrupt genrateion is simulated using proteus
+****
